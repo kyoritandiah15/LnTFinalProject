@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --pr-color: rgb(246, 178, 233);
+}
+
+/* navbar */
+.navbar {
+  z-index: 3;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.navbar .container-fluid {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.navbar .nav-item {
+  margin-left: 30px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.navbar .nav-item a:hover {
+  color: rgb(121, 48, 255) !important;
+}
+
+.navbar .navbar-brand {
+  margin: auto;
+}
+
+.navbar .nav-item .nav-link.active {
+  color: rgb(121, 48, 255) !important;
+}
+
+/* contactus */
+#contactus {
+  width: 100%;
+  padding-top: 110px;
+}
+
+#contactus h1 {
+  font-weight: 700;
+  color: transparent;
+  background-image: linear-gradient(to left, #2ecc71, #3498db, #9b59b6, #f39c12);
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: homeAnimation 8s linear infinite;
+  -webkit-background-size: 500%;
+  background-size: 500%;
+  margin-bottom: 30px;
+}
+
+@keyframes homeAnimation {
+  0% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+#contactus h1:hover {
+  color: rgb(121, 48, 255);
+}
+
+#contactus .container #card {
+  height: 245px;
+  background: linear-gradient(-45deg, #efa690, #e984ab, #61b9d8, #67dabf);
+  background-size: 400% 400%;
+  -webkit-animation: gradientBG 10s linear infinite;
+  animation: gradientBG 10s linear infinite;
+  border-radius: 25px;
+  padding: 35px;
+}
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#contactus .container #card h2 {
+  font-weight: 550;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#contactus .container #card h5 {
+  font-weight: 350;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#contactus #manage h5 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#contactus #manage img {
+  width: 300px;
+  margin-bottom: 110px;
+}
+
+h7 {
+  display: flex;
+  flex-direction: row;
+}
+
+#contactus #copyright h7:before,
+h7:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #000;
+  margin: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  #card {
+    width: auto;
+    height: auto;
+  }
+
+  #card h5 {
+    font-size: 16px;
+  }
+
+  #contactus #manage img {
+    width: 250px;
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}

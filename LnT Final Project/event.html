@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="event.css" />
+
+    <title>PuddingFest</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top w-100">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/PuddingFest.svg" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="event.html">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="event">
+      <div class="container">
+        <div class="row">
+          <div class="text-center mx-auto w-auto">
+            <h1>Rangkaian Acara</h1>
+          </div>
+          <div class="col-12 text-center w-75 mx-auto"> 
+            <p class="caption">PuddingFest akan diselenggarakan secara online dan terdiri dari beberapa rangkaian acara untuk setiap perusahaan yang akan melakukan presentasi.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="card-rangkaian position-relative">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="./assets/seminar.png" class="position-absolute top-50 start-50 translate-middle" />
+              </div>
+              <h4 class="mt-4">Seminar Inovasi</h4>
+              <p class="mt-3">Seminar Inovasi hadir dengan Tema "Inovasi sebagai katalisator Kemajuan bangsa" yang akan dibawakan oleh seorang pembicara yang luar biasa.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-rangkaian position-relative">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="./assets/webinar.png" class="position-absolute top-50 start-50 translate-middle" />
+              </div>
+              <h4 class="mt-4">Mini Webinar</h4>
+              <p class="mt-3">Mini Webinar menyajikan ragam inovasi dan dapat berbincang langsung dengan para inovator yang sudah ahli dalam bidangnya.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="card-rangkaian position-relative">
+              <div class="circle-icon position-relative mx-auto">
+                <img src="./assets/presentation.png" class="position-absolute top-50 start-50 translate-middle" />
+              </div>
+              <h4 class="mt-4">Pameran Teknologi</h4>
+              <p class="mt-3">Pameran Teknologi menyajikan presentasi terkait teknologi-teknologi terbaru dari berbagai perusahaan ternama yang ada di Indonesia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carousel">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center">
+            <h1>Past Events</h1>
+          </div>
+          <div class="col-8 text-center mx-auto">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./assets/carousel/webinar2.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/carousel/gambarSeminar.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/carousel/pameranonline.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/carousel/webinar.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/carousel/pameranTeknologi.jpeg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./assets/carousel/pameran.jpeg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="d-flex justify-content-center">
+        <h1>Timeline</h1>
+      </div>
+      <div class="container">
+        <ul class="nav nav-tabs d-flex justify-content-center">
+          <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#seminar">Seminar Inovasi</a></li>
+          <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#webinar">Mini Webinar</a></li>
+          <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#pameran">Pameran Teknologi</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="seminar">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-4 text-center">
+                <div class="card-rangkaian position-relative">
+                  <h4>Seminar Inovasi Day 1</h4>
+                  <p class="mt-2">Senin, 11 Juli 2022</p>
+                </div>
+              </div>
+    
+              <div class="col-md-4 text-center">
+                <div class="card-rangkaian position-relative">
+                  <h4>Seminar Inovasi Day 2</h4>
+                  <p class="mt-2">Selasa, 12 Juli 2022</p>
+                </div>
+              </div>
+    
+              <div class="col-md-4 text-center">
+                <div class="card-rangkaian position-relative">
+                  <h4>Seminar Inovasi Day 3</h4>
+                  <p class="mt-2">Rabu, 13 Juli 2022</p>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="tab-pane" id="webinar">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-4 text-center">
+                  <div class="card-rangkaian position-relative">
+                    <h4>Mini Webinar Day 1</h4>
+                    <p class="mt-2">Kamis, 14 Juli 2022</p>
+                  </div>
+                </div>
+      
+                <div class="col-md-4 text-center">
+                  <div class="card-rangkaian position-relative">
+                    <h4>Mini Webinar Day 2</h4>
+                    <p class="mt-2">Jumat, 14 Juli 2022</p>
+                  </div>
+                </div>
+      
+              </div>
+              </div>
+
+              <div class="tab-pane" id="pameran">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-4 text-center">
+                    <div class="card-rangkaian position-relative">
+                      <h4>Pameran Teknologi</h4>
+                      <p class="mt-2">Sabtu, 15 Juli 2022</p>
+                    </div>
+                  </div>
+      
+                </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formRegis">
+      <div class="d-flex justify-content-center">
+        <h1>Register Now!</h1>
+      </div>
+      <div class="container d-flex justify-content-center">
+        <div class="contactform">
+          <form id="form" action="#">
+            <div class="form-container">
+              <label class="form-label" for="nama">Nama</label>
+              <input id="nama" type="text" name="nama" placeholder="Masukkan nama Anda"/>
+            
+            <div class="form-container">
+              <label class="form-label" for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="Masukkan email Anda" />
+
+            <div class="form-container">
+              <label class="form-label" for="nomorTelepon">Nomor Telepon</label>
+              <input id="nomorTelepon" type="tel" name="nomorTelepon" placeholder="Masukkan nomor telepon Anda" />
+            
+            <div class="form-container">
+              <label class="form-label" for="event">Event yang akan diikuti</label>
+              <select class="form-select" aria-label="Default select example" name="event">
+                <option hidden selected disabled  value="">Pilih Event</option>
+                <option value="1">Seminar Inovasi</option>
+                <option value="2">Mini Webinar</option>
+                <option value="3">Pameran Teknologi</option>
+              </select>
+          
+            <div class="d-flex justify-content-center">
+              <button type="submit" id="Btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js" integrity="sha512-FOhq9HThdn7ltbK8abmGn60A/EMtEzIzv1rvuh+DqzJtSGq8BRdEN0U+j0iKEIffiw/yEtVuladk6rsG4X6Uqg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <script src="./event.js"></script>
+
+
+  </body>
+</html>
